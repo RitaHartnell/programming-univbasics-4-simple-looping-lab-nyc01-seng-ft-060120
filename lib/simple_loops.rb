@@ -17,3 +17,15 @@ def output_array(array)
     puts i
   end
 end
+
+def return_string_array(array)
+  new_array = []
+  for i in array
+    new_array << i.to_s
+  end
+  return new_array
+end
+
+
+
+  
